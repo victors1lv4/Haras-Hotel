@@ -37,34 +37,35 @@ a {
 }
 .container_main {
     background-color: #f3c892;
+    width: 100%;
 }
 .maxwidth .maxwidth_main {
     position: absolute;
-    width: 10rem;
+    width: 90%;
 }
 .area_text {
     text-align: center;
     color: black;
 }
 #img3 {
-    height: 500px;
-    width: 669px;
+    width: 50%;
 }
 #img5 {
-    height: 500px;
-    width: 669px;
+    width: 50%;
 }
 .maxwidth_img {
-    height: 500px;
+    width: 50%;
     border-radius: 10px;
 }
 .maxwidth .maxwidth_section {
     position: absolute;
+    width: 90%;
 }
 .container_section {
     display: grid;
     background-color: #fff1bd;
     overflow: hidden;
+    width: 100%;
 }
 .area_text2 {
     text-align: center;
@@ -77,14 +78,19 @@ a {
     padding: 15px;
 }
 .maxwidth_img2 {
-    height: 10rem;
+    height: 40%;
     border-radius: 50%;
 }
 .container_coment {
-    margin-left: 10%;
+    padding: 0;
+    margin-left: 8%;
 }
 .container_footer {
     background-color: #f3c892;
+    width: 100%;
+}
+.maxwidth .maxwidth_footer {
+    width: 90%;
 }
 .footer1 {
     display: flex;
@@ -96,6 +102,12 @@ a {
     padding-right: 25px;
     margin-bottom: 15px;
 }
+.footer1 h2 {
+    font-size: 1.7rem;
+}
+.footer1 p a {
+    font-size: 1rem;
+}
 @media screen and (max-width: 700px) {
     .header {
         display: block;
@@ -104,8 +116,10 @@ a {
     .maxwidth_img,
     #img3,
     #img5 {
-        width: 20rem;
-        height: 20rem;
+        width: 70%;
+    }
+    .maxwidth_img2 {
+        height: 40%;
     }
     .header img {
         float: none;
