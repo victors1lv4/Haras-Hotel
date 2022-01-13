@@ -103,7 +103,8 @@ a {
     .maxwidth_img,
     #img3,
     #img5 {
-        width: 100%;
+        width: 400px;
+        heigth: 400px;
     }
     .header img {
         float: none;
