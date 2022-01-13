@@ -111,4 +111,6 @@ a {
     .menu {
         display: block;
     }
+    .container_coment {
+    transform: translate(3%);
 }
