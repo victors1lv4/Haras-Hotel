@@ -40,6 +40,7 @@ a {
 }
 .maxwidth .maxwidth_main {
     position: absolute;
+    width: 10rem;
 }
 .area_text {
     text-align: center;
@@ -80,7 +81,7 @@ a {
     border-radius: 50%;
 }
 .container_coment {
-    transform: translate(12%);
+    margin-left: 10%;
 }
 .container_footer {
     background-color: #f3c892;
@@ -103,8 +104,8 @@ a {
     .maxwidth_img,
     #img3,
     #img5 {
-        width: 400px;
-        heigth: 400px;
+        width: 20rem;
+        height: 20rem;
     }
     .header img {
         float: none;
@@ -113,5 +114,15 @@ a {
         display: block;
     }
     .container_coment {
-    transform: translateY(0%);
+        margin-left: 0%;
+    }
+    .area_text2 h1 {
+        font-size: 2rem;
+    }
+    .area_text2 h3 {
+        font-size: 1.5rem;
+    }
+    .area_text2 p {
+        font-size: 1.2rem;
+    }
 }
