@@ -113,5 +113,5 @@ a {
         display: block;
     }
     .container_coment {
-    transform: translate(-5%);
+    transform: translateY(-5%);
 }
