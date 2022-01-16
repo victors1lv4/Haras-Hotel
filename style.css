@@ -141,5 +141,6 @@ a {
     }
     .footer1 {
         display: block;
+        overflow: hidden;
     }
 }
