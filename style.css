@@ -139,4 +139,7 @@ a {
     .area_text2 p {
         font-size: 1.2rem;
     }
+    .footer1 {
+        display: block;
+    }
 }
